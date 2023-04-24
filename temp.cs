@@ -7,11 +7,11 @@ class Program
         DisplayWelcomeMessage();
 
         string userName = PromptUserName();
-        int uNumber = int.Parse(PromptUserNumber());
+        int userNumber = PromptUserNumber();
 
-        int SquaredNumber = SquareNumber(uNumber);
+        int squaredNumber = SquareNumber(userNumber);
 
-        DisplayResult(userName, SquaredNumber);
+        DisplayResult(userName, squaredNumber);
     }
 
     static void DisplayWelcomeMessage()
